@@ -8,3 +8,10 @@ eureka:
     fetchRegistry: false
   server:
     waitTimeInMsWhenSyncEmpty: 0
+  region: default
+  name: sampleRegisteringService
+  region: default
+  serviceUrl:
+    default: http://localhost:8761/eureka/v2/
+  preferSameZone: true
+  shouldUseDns: false
