@@ -17,6 +17,14 @@ cloud:
     discovery:
       enabled: true
 eureka:
+  registration:
+    enabled: false
+  preferSameZone: true
+  shouldUseDns: false
+  serviceUrl:
+    default: http://eureka-service:8761/eureka/v2/
+  decoderName: JacksonJson
+  vipAddress: eureka-service
   client:
     serviceUrl:
       defaultZone: ${vcap.services.eureka-service.credentials.uri:http://eureka-service:8761}/eureka/
