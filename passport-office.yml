@@ -23,3 +23,11 @@ server:
   port: 4200
 message:
   greeting: Привет от сервера конфигурации!
+label:
+    search_person_button: Поиск
+    show_additional_search_person_options: показать дополнительные опции
+    hide_additional_search_person_options: скрыть дополнительные опции
+    first_name: имя
+    last_name: фамилия
+    patronymic: отчество
+    
