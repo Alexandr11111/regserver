@@ -1,0 +1,6 @@
+configuration:  
+  projectName: passport-office
+server:
+  port: 4200
+message:
+  greeting: Hello from the configuration!
