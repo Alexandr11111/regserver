@@ -1,6 +1,16 @@
 configuration:  
   projectName: passport-office
+
+spring:
+    profiles: en
 server:
   port: 4200
 message:
   greeting: Hello from the configuration!
+  
+spring:
+    profiles: ru
+server:
+  port: 4200
+message:
+  greeting: Привет от сервера конфигурации!
